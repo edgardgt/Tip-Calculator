@@ -2,81 +2,119 @@
 <items version="2" >
 
     <item
-        jar="/home/drsolomon/Eclipse ADT/sdk/extras/android/m2repository/com/android/support/support-annotations/23.4.0/support-annotations-23.4.0.jar"
+        is-multidex="true"
+        jar="/home/drsolomon/Eclipse ADT/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
         jumboMode="true"
-        revision="23.0.1"
-        sha1="ffbe55fdb2bb456b1485831706a9eac3300bb6b8">
-        <dex dex="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.4.0_ca39f210a2004ce69e3c2d35e240e3e590f56ac6/classes.dex" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_50d6e2b92de2e86a2df8dc35813094d0c42f005d/classes.dex" />
     </item>
     <item
-        jar="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        is-multidex="true"
+        jar="/home/drsolomon/.android/build-cache/7ad7ec42dfb6f50e99ced60b1bf1a26fdd8e4382/output/jars/classes.jar"
         jumboMode="true"
-        revision="23.0.1"
-        sha1="39b3c1ce789ad10f9e5c60f3a41067ce27fb720c">
-        <dex dex="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_2d5d62989c89741cd9125bec8754454adb4dc33a/classes.dex" />
-    </item>
-    <item
-        jar="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.1"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.1.1_0444c9da998fe62dc9a862b1d94b4ced67edb3fa/classes.dex" />
-    </item>
-    <item
-        jar="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
-        jumboMode="true"
-        revision="23.0.1"
+        optimize="true"
+        revision="25.0.0"
         sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-23.1.1_208cad517fcfa98cba5faf67a955b1977413a554/classes.dex" />
+        <dex dex="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_b0d02f261dbcb1d1832f536eb41f75a0b0bbebc2/classes.dex" />
     </item>
     <item
-        jar="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        is-multidex="true"
+        jar="/home/drsolomon/AndroidStudioProjects/Tip-Calculator/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
         jumboMode="true"
-        revision="23.0.1"
-        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.1.1_67a820513af1538f0ecb150d1433ed7deaed2adf/classes.dex" />
-    </item>
-    <item
-        jar="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/libs/internal_impl-23.4.0.jar"
-        jumboMode="true"
-        revision="23.0.1"
-        sha1="ea3c07504d2c8f4b13aa17c45c1b68ed9c1c3674">
-        <dex dex="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.4.0_69a99f74d44912bc76bf6dbdc6dca447e247cd15/classes.dex" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="08eb001185ef2e7fd672f27146b6ff97fa18a903">
+        <dex dex="/home/drsolomon/AndroidStudioProjects/Tip-Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_5d2113c8b0c4ddcdc0e92ae6fb317ed8081b9082/classes.dex" />
     </item>
     <item
         jar="/home/drsolomon/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
         jumboMode="true"
-        revision="23.0.1"
+        optimize="true"
+        revision="23.0.2"
         sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
-        <dex dex="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_7408e88e5faf6c7a31e6248b513547b9948a520b/classes.dex" />
+        <dex dex="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_7408e88e5faf6c7a31e6248b513547b9948a520b/classes.dex" />
     </item>
     <item
-        jar="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        is-multidex="true"
+        jar="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
-        revision="23.0.1"
-        sha1="c3b1f71a3b098fa6572e593e0b89de013e72ddce">
-        <dex dex="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f3082a62037625e64878ba30db98e9be40f59cc1/classes.dex" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_681fe905b97cbbd0d975478a536b5096a37e7be8/classes.dex" />
     </item>
     <item
-        jar="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="/home/drsolomon/.android/build-cache/5129a8ef2937396aa75397445b12c11d91fdd4f4/output/jars/classes.jar"
         jumboMode="true"
-        revision="23.0.1"
-        sha1="d0dda274b703dd9c5bb056867649d22b4171ae7d">
-        <dex dex="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.1.0_579e527c0e95599785820044c1c4361659dd0525/classes.dex" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_02bc6178a6085fea2f856284c9966bb55d1eff48/classes.dex" />
     </item>
     <item
-        jar="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.4.0/jars/classes.jar"
+        jar="/home/drsolomon/Eclipse ADT/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
         jumboMode="true"
-        revision="23.0.1"
-        sha1="67bd36ee9340ec7c254108936ad16b24bed160cc">
-        <dex dex="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-23.4.0_8c1b895b182377aff79be5b9419b55b01d674bc7/classes.dex" />
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-23.1.1_50d6e2b92de2e86a2df8dc35813094d0c42f005d/classes.dex" />
     </item>
     <item
-        jar="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.1.0/jars/classes.jar"
+        is-multidex="true"
+        jar="/home/drsolomon/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife/7.0.1/d5d13ea991eab0252e3710e5df3d6a9d4b21d461/butterknife-7.0.1.jar"
         jumboMode="true"
-        revision="23.0.1"
-        sha1="4477ea44f5ec5ad064022a22691732d7638ff197">
-        <dex dex="/home/drsolomon/AndroidStudioProjects/TipCalc/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.1.0_e52f238e7e08b9adcbbd61022615cd6d3dc9d7cc/classes.dex" />
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5d13ea991eab0252e3710e5df3d6a9d4b21d461">
+        <dex dex="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/butterknife-7.0.1_7408e88e5faf6c7a31e6248b513547b9948a520b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/drsolomon/.android/build-cache/5129a8ef2937396aa75397445b12c11d91fdd4f4/output/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.1.1_4d0613fb235842eb6f3769a3589d7baa076b50ae/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/drsolomon/AndroidStudioProjects/Tip-Calculator/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/home/drsolomon/AndroidStudioProjects/Tip-Calculator/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_0075796a6380fdd482b891f415190336b8f25672/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/drsolomon/.android/build-cache/bfb29e7041ebc762b9075c414865aa531154f11b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_afa466d4d1804e01e8bca9d93d017dc5ffc88570/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/drsolomon/.android/build-cache/2eda9c6d68b683f5d8d4de288d332276dc47f643/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1cfde5c4320ed440b46d8b3589755649344c7b5f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="5d63ad094707bef3cf5034d7ed1b1a891a7fea7d">
+        <dex dex="/home/drsolomon/AndroidStudioProjects/android-calculadora-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_bda53764c69d2e75724749a4ed914519d267b88b/classes.dex" />
     </item>
 
 </items>

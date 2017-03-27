@@ -1,6 +1,6 @@
 package edu.galileo.android.tipcalc.fragments;
 
-
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v7.widget.LinearLayoutManager;
@@ -8,56 +8,59 @@ import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Toast;
-
-import java.util.ArrayList;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
 import edu.galileo.android.tipcalc.R;
-import edu.galileo.android.tipcalc.adapters.TipAdapter;
-import edu.galileo.android.tipcalc.models.TipRecord;
+import edu.galileo.android.tipcalc.activities.TipDetailActivity;
+import edu.galileo.android.tipcalc.adapter.CustomRecyclerAdapter;
+import edu.galileo.android.tipcalc.adapter.OnItemClickListener;
+import edu.galileo.android.tipcalc.model.TipRecord;
 
 
-/**
- * A simple {@link Fragment} subclass.
- */
-public class TipHistoryListFragment extends Fragment implements TipHistoryListFragmentListener{
+public class TipHistoryListFragment extends Fragment implements OnItemClickListener, TipHistoryListFragmentListener {
+    @Bind(R.id.recyclerView)
     RecyclerView recyclerView;
-
-    private TipAdapter adapter;
+    private CustomRecyclerAdapter adapter;
 
     public TipHistoryListFragment() {
-        // Required empty public constructor
     }
-
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
-        View view =inflater.inflate(R.layout.fragment_tip_history_list, container, false);
+        View view = inflater.inflate(R.layout.fragment_tip_history_list, container, false);
         ButterKnife.bind(this, view);
         initAdapter();
-        iniRecyclerView();
+        initRecyclerView();
         return view;
     }
 
-    private void iniRecyclerView() {
+    private void initAdapter() {
+        if (adapter == null) {
+            adapter = new CustomRecyclerAdapter();
+            adapter.setOnItemClickListener(this);
+        }
+    }
+
+    private void initRecyclerView() {
         recyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         recyclerView.setAdapter(adapter);
     }
 
-    private void initAdapter() {
-        if (adapter ==null){
-            adapter =new TipAdapter(getActivity().getApplicationContext(), new ArrayList<TipRecord>());
-        }
-    }
+    @Override
+    public void onItemClick(TipRecord element) {
+        Intent i = new Intent(getActivity(), TipDetailActivity.class);
 
+        i.putExtra(TipDetailActivity.TIP_KEY, element.getTip());
+        i.putExtra(TipDetailActivity.BILL_TOTAL_KEY, element.getBill());
+        i.putExtra(TipDetailActivity.DATE_KEY, element.getDateFormatted());
+        startActivity(i);
+    }
 
     @Override
     public void addToList(TipRecord record) {
-        adapter.add(record);
+        adapter.addElement(record);
     }
 
     @Override
